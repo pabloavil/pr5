@@ -6,8 +6,8 @@ using namespace std;
 
 // Ejercicio 1. Función recursiva que calcule longitud de cadena de caractéres
 /*
-{Pre: }
-{Post: }
+{Pre:Se le pasa como parametro una cadena de caracteres }
+{Post:Devuelve la longuitud de la cadena de forma recursiva final}
 */
 
 int longitudInm(char cadena[],int cont){
@@ -31,8 +31,8 @@ int longitud(char cadena[]){
 // Ejercicio 2. Función recursiva que dada una cadena de caracteres sin espacios
 // en blanco, devuelve verdad si dicha cadena es un palíndromo y falso en caso contrario.
 /*
-{Pre: }
-{Post: }
+{Pre:Se le pasa una cadena de caracteres al programa }
+{Post:Devuelve si la cadena forma un palindromo de forma recursiva final }
 */
 bool palindromoInm(char cadena[],int cont1,int cont2,bool pal){
 
@@ -61,8 +61,8 @@ bool palindromo(char cadena[]){
 // Ejercicio 3. Función recursiva que dada una cadena de caracteres sin espacios en blanco,
 // devuelve verdad si dicha cadena contiene la letra ‘A’ y falso en caso contrario.
 /*
-{Pre: }
-{Post: }
+{Pre:Se le pasa como parametro una cadena de caracteres sin espacios en blanco }
+{Post:devuelve verdad si esa cadena contiene la letra A }
 */
 
 bool contieneLaAInm(char cadena[],int cont,bool contiene){
